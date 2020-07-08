@@ -1,21 +1,21 @@
 {
-  "name": "chuk-shirley/no-intl",
-  "description": "Zend MVC module for php installations with no internationalization extension",
+  "name": "chuk-shirley/laminas-no-intl",
+  "description": "Laminas MVC module for php installations with no internationalization extension",
   "license": "MIT",
   "keywords": [
     "intl",
     "internationalization",
-    "zendframework"
+    "laminas"
   ],
   "require": {
     "php": "^7.0",
-    "zendframework/zend-i18n": "^2.0"
+    "laminas/laminas-i18n": "^2.10"
   },
   "require-dev": {
-    "zendframework/zend-servicemanager": "^3.0.0",
     "phpunit/phpunit": "^6.5",
-    "zendframework/zend-modulemanager": "^2.8",
-    "zendframework/zend-view": "^2.11"
+    "laminas/laminas-servicemanager": "^3.4",
+    "laminas/laminas-modulemanager": "^2.8",
+    "laminas/laminas-view": "^2.11"
   },
   "autoload": {
     "psr-4": {

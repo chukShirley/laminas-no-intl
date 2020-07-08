@@ -6,7 +6,7 @@ namespace NoIntl\Factory\View\Helper;
 
 use Interop\Container\ContainerInterface;
 use NoIntl\View\Helper\CurrencyFormat;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 final class CurrencyFormatFactory implements FactoryInterface
 {

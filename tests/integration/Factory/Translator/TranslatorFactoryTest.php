@@ -6,8 +6,8 @@ namespace NoIntlIntegrationTest\Factory\Translator;
 
 use NoIntl\Factory\Translator\TranslatorFactory;
 use PHPUnit\Framework\TestCase;
-use Zend\I18n\Translator\Translator;
-use Zend\ServiceManager\ServiceManager;
+use Laminas\I18n\Translator\Translator;
+use Laminas\ServiceManager\ServiceManager;
 
 final class TranslatorFactoryTest extends TestCase
 {

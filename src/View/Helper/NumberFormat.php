@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace NoIntl\View\Helper;
 
-final class NumberFormat extends \Zend\I18n\View\Helper\NumberFormat
+final class NumberFormat extends \Laminas\I18n\View\Helper\NumberFormat
 {
     public function __construct()
     {

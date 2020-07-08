@@ -6,7 +6,7 @@ namespace NoIntl\Factory\View\Helper;
 
 use Interop\Container\ContainerInterface;
 use NoIntl\View\Helper\NumberFormat;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 final class NumberFormatFactory implements FactoryInterface
 {

@@ -1,17 +1,17 @@
-# no-intl
-Zend MVC module for php installations with no i18n extension
+# laminas-no-intl
+Laminas MVC module for php installations with no i18n extension
 
 ## Installation
 ```bash
-$ composer require chuk-shirley/no-intl
+$ composer require chuk-shirley/laminas-no-intl
 ```
 
 ## Configuration
-After installing the package, you'll need to add the module to your module config. This is typically found in /config/modules.config.php. Please ensure that this module is listed _after_ Zend\I18n.
+After installing the package, you'll need to add the module to your module config. This is typically found in /config/modules.config.php. Please ensure that this module is listed _after_ Laminas\I18n.
 ```php
 return [
     // ... other modules
-    'Zend\I18n',
+    'Laminas\I18n',
     'NoIntl',
 ];
 ```

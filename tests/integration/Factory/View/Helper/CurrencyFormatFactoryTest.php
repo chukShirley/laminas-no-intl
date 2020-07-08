@@ -8,7 +8,7 @@ use Interop\Container\ContainerInterface;
 use NoIntl\Factory\View\Helper\CurrencyFormatFactory;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Zend\I18n\View\Helper\CurrencyFormat;
+use Laminas\I18n\View\Helper\CurrencyFormat;
 
 final class CurrencyFormatFactoryTest extends TestCase
 {

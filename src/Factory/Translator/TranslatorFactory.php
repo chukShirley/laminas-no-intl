@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace NoIntl\Factory\Translator;
 
 use Interop\Container\ContainerInterface;
-use Zend\I18n\Translator\TranslatorInterface;
-use Zend\I18n\Translator\TranslatorServiceFactory;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\I18n\Translator\TranslatorInterface;
+use Laminas\I18n\Translator\TranslatorServiceFactory;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 final class TranslatorFactory implements FactoryInterface
 {
