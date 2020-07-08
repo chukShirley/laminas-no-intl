@@ -26,7 +26,7 @@ final class NumberFormat extends \Laminas\I18n\View\Helper\NumberFormat
         $formatStyle = null,
         $formatType = null,
         $locale = null,
-        $decimals = null,
+        $decimals = 0,
         array $textAttributes = null
     ) {
         return number_format((int)$number, $decimals);
